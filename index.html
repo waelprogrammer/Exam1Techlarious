@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | HelpLink</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html">HelpLink</a>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="requests.html">My requests</a>
+            <a href="offer.html">Offer help</a>
+        </nav>
+        <div class="account-links">
+            <a class="button" href="cart.html">List / Cart (2)</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign up</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <section>
+            <h1>Find someone who can help</h1>
+            <p>Ask for everyday help or share your skills with the community.</p>
+            <form class="search" action="services.html">
+                <input type="search" aria-label="Search services" placeholder="What do you need help with?">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section>
+            <h2>Browse categories</h2>
+            <div class="categories">
+                <a class="button" href="services.html#technology">Technology</a>
+                <a class="button" href="services.html#repairs">Home repairs</a>
+                <a class="button" href="services.html#career">Career / CV</a>
+                <a class="button" href="services.html#design">Design</a>
+            </div>
+        </section>
+        <section>
+            <h2>Available services</h2>
+            <div class="cards">
+                <div class="card" id="technology">
+                    <h3>Programming help</h3>
+                    <p>Ali | Available | 4/5</p>
+                    <a class="button" href="service.html">View service</a>
+                </div>
+                <div class="card" id="career">
+                    <h3>CV review</h3>
+                    <p>Maya | Available | 5/5</p>
+                    <a class="button" href="cv.html">View service</a>
+                </div>
+                <div class="card" id="design">
+                    <h3>Logo design</h3>
+                    <p>Omar | Available | 4/5</p>
+                    <a class="button" href="design.html">View service</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>HelpLink | Community help</p>
+        <div>
+            <a href="contact.html">Contact admin</a>
+            <a href="contact.html#report">Report a problem</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | HelpLink</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html">HelpLink</a>
+        <nav aria-label="Main navigation">
+            <a href="#users">Users</a>
+            <a href="services.html">Services</a>
+            <a href="#urgent">Requests</a>
+            <a href="#reports">Reports</a>
+        </nav>
+        <div class="account-links">
+            <a class="button" href="admin.html">Admin</a>
+            <a href="login.html">Logout</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="row between">
+            <h1>Admin dashboard</h1>
+            <button type="button">Report Summary PDF</button>
+        </div>
+        <div class="admin-tabs">
+            <a class="button" href="#users">Users</a>
+            <a class="button" href="services.html">Services</a>
+            <a class="button" href="#urgent">Live requests</a>
+            <a class="button" href="#reports">Reports</a>
+        </div>
+        <div class="admin-panels">
+            <div class="card" id="users">
+                <h3>Users</h3>
+                <p>Sara &nbsp; Ali &nbsp; Maya</p>
+                <div class="row">
+                    <button type="button">View profile</button>
+                    <button type="button">Block user</button>
+                </div>
+            </div>
+            <div class="card" id="reports">
+                <h3>Reported problems</h3>
+                <p>#12: member did not respond</p>
+                <button type="button">View report / user</button>
+            </div>
+        </div>
+        <section id="urgent">
+            <h2>Urgent requests</h2>
+            <div class="row between">
+                <div class="card urgent-request">#15: problem at home | Pending</div>
+                <button type="button">Make priority</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>HelpLink | Community help</p>
+        <div>
+            <a href="contact.html">Contact admin</a>
+            <a href="contact.html#report">Report a problem</a>
+        </div>
+    </footer>
+</body>
+</html>

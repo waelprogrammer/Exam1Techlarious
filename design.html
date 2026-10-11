@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo design | HelpLink</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html">HelpLink</a>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="requests.html">My requests</a>
+            <a href="offer.html">Offer help</a>
+        </nav>
+        <div class="account-links">
+            <a class="button" href="cart.html">List / Cart (2)</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign up</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="row between breadcrumb">
+            <p><a href="index.html">Home</a> / <a href="services.html">Services</a> / Logo design</p>
+            <a class="button" href="services.html">Back</a>
+        </div>
+        <h1>Logo design</h1>
+        <div class="service-layout">
+            <div class="card">
+                <h3>Omar</h3>
+                <p>Skills: design</p>
+                <p>Available | Rating: 4/5</p>
+            </div>
+            <form action="cart.html">
+                <p>Help creating a simple logo for your project.</p>
+                <label for="description">Describe what you need</label>
+                <textarea id="description" rows="3" placeholder="Describe what you need ..." required></textarea>
+                <label for="time">Preferred time</label>
+                <input id="time" type="datetime-local" required>
+                <label class="check"><input type="checkbox">Urgent request</label>
+                <div class="row">
+                    <button class="button" type="submit">Add to request list</button>
+                    <a class="button" href="cart.html">View list / cart</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>HelpLink | Community help</p>
+        <div>
+            <a href="contact.html">Contact admin</a>
+            <a href="contact.html#report">Report a problem</a>
+        </div>
+    </footer>
+</body>
+</html>
